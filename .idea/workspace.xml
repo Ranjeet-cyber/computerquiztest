@@ -12,7 +12,262 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef918753-ef5c-4a80-918c-901545c04858" name="Default Changelist" comment="ComputerQuizTest" />
+    <list default="true" id="ef918753-ef5c-4a80-918c-901545c04858" name="Default Changelist" comment="ComputerQuizTest">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/examplejayho/quiztest/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/BioQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Biology/BiologyQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Chemistry/ChemistryQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/ChemistryQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Economy/EconomyQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/EconomyQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Geo/GeoQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/GeoQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/History/HistoryQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/HistoryQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/India/IndiaQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Physics/PhysicsQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/PhysicsQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Politics/PoliticsQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/PoliticsQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/Sports/SportQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/SportsQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/SubCategoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/World/WorldQuestion9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/examplejayho/quiztest/WorldQuizActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/biology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bkgd_transparent1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bacgrd1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chemistry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/economy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/geographyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hstory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_brightness_6_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_brightness_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_cancel_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_check_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_close_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_refresh_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_share_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/india.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/monitorcircle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/physicss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/politicss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sportss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/subicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/theory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/worldi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/aladin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/mangal.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/muktabold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/muktalight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/muktamedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/muktaregular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_done_acivity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sub_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/examplejayho/quiztest/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_7_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_5_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/quiztest.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/quiztest.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quiztest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/quiztest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +278,34 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="quiztest" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="quiztest" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="quiztest" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,6 +419,18 @@
       <updated>1634976200751</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ComputerQuizTest" />

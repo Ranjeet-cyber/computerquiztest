@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:background="#DFDFDF"
+        android:layout_height="match_parent" android:layout_marginBottom="60dp" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView android:id="@+id/python"  android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/worldi"/>
+                    <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/world" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <androidx.cardview.widget.CardView android:id="@+id/india" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/india"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/india" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@+id/world" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/theory"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/python" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <androidx.cardview.widget.CardView android:id="@+id/geo" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/geographyi"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/geo" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@+id/history" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/hstory"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/history" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <androidx.cardview.widget.CardView android:id="@+id/chemistry" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/chemistry"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/chem" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@+id/bio" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView  android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/biology"
+                            />
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bio" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <androidx.cardview.widget.CardView android:id="@+id/sports" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView  android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/sportss"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sports" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@+id/economy" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/economy"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/economy" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <androidx.cardview.widget.CardView android:id="@+id/physics" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/physicss"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/physics" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@+id/politics" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/cardview_height" android:layout_margin="@dimen/card_margin" android:layout_weight="1" android:onClick="classClick" app:cardCornerRadius="@dimen/card_radious">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_width="@dimen/image_width" android:layout_height="@dimen/image_height" android:src="@drawable/politicss"/>
+                        <TextView android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/politics" android:fontFamily="@font/muktabold" android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
